@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
   s.framework    = 'Foundation'
   s.ios.framework = 'UIKit'
   s.osx.framework = 'AppKit'
-  s.dependency 'GRKOpenSSLFramework'
+  s.dependency 'GRKOpenSSLFramework-1.0.2'
   s.dependency 'ISO8601DateFormatter'
 end
